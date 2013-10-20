@@ -13,3 +13,21 @@ if x > 0:
         print squre
 else:
     print x, "is not good"
+
+
+counter = 10
+for i in range(1,counter):
+    if counter %i == 0:
+        print 'div', i
+
+xx= 100
+divisors = ()
+for i in range(1,xx):
+    if xx%i == 0:
+        divisors = divisors + (i,)
+print divisors
+
+sumDigits = 0
+for c in str(1952):
+    sumDigits += int(c)
+print sumDigits
