@@ -1,19 +1,22 @@
 __author__ = 'Administrator'
 
-x = 15
 
-squre = 0
+"""some comments
+"""
+def sqrt(x):
+    squre = 0
 
-if x > 0:
-    while (squre * squre < x):
-        squre += 1
-    if squre * squre != x:
-        print x, 'is not prefect squre'
+    if x > 0:
+        while (squre * squre < x):
+            squre += 1
+        if squre * squre != x:
+            print x, 'is not prefect squre'
+        else:
+            print squre
     else:
-        print squre
-else:
-    print x, "is not good"
+        print x, "is not good"
 
+print sqrt(36)
 
 counter = 10
 for i in range(1,counter):
