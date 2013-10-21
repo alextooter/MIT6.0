@@ -16,7 +16,7 @@ def sqrt(x):
     else:
         print x, "is not good"
 
-print sqrt(36)
+print sqrt(49)
 
 counter = 10
 for i in range(1,counter):
